@@ -5,3 +5,4 @@
 - [Vim插入剪切命令行](2.md)
 - [Vim工作区管理](3.md)
 - [Vim其他技巧](4.md)
+- [Vimrc配置](vimrc.md)

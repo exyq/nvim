@@ -18,15 +18,15 @@ let mapleader=";"
 	- map --**包含了 *nmap vmap omap***
 	- map! --**包含 *imap cmap***
 - 其他特殊按键的表达方式如下
-	- \<ESC> --Escape
-	- \<CR> --Enter
-	- \<C-A> --Ctrl+a
-	- \<A-C> --Alt+C
-	- \<BACKSPACE> --Backspace
-	- \<SPACE> --Space
-	- \<TAB> --Tab
-	- \<F1> --F1
-	- \<LEFT>\<DOWN>\<UP>\<RIGHT> --left down up right
+	- **<ESC>** --Escape
+	- **<CR>** --Enter
+	- **<C-A>** --Ctrl+a
+	- **<A-C>** --Alt+C
+	- **<BACKSPACE>** --Backspace
+	- **<SPACE>** --Space
+	- **<TAB>** --Tab
+	- **<F1>** --F1
+	- **<LEFT>****<DOWN>****<UP>****<RIGHT>** --left down up right
 
 #### Vimrc其余配置
 - 因为本人更喜欢vim的整洁,所以没有太多配置内容,重点主要是设定快捷键部分
@@ -38,20 +38,18 @@ set number | 开启行号
 set relativenumber | 一个神奇的行号: )
 set cursorline | 让编辑的当前行有一条底线,Gvim不建议开
 set wrap | 开启折行(就是自动换行)
-set showcmd | 命令显示
+set showcmd | 命令输入后显示
 set windmenu | 命令菜单
 set hlsearch | 搜索高亮
 set incasearch | 所有搜索目标同时高亮
 set smartcase | 搜索智能大小写
 set scrolloff=5 | 滚动时光标至少留出五行
 set t_Co=256 | 开启256色
-set cindent | 开启缩进
 set tabstop=4 | 设定tab键为4个空格(一般情况是八个)
 set shiftwidth=4 | 设定每一级缩进的长度
 **比较进阶的配置** |
 set backspace=indent,eol,start | 设定退格键可以删除的字符
 set autoindent | 设定智能缩进
-set cindoptions=g0,:0,N-s,(0 | 针对C语言进行缩进
 set smartindent | 智能缩进
 filetype on | 开启文件类型侦测
 
